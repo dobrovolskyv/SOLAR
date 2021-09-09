@@ -1,0 +1,33 @@
+@import "./header.css";
+@import "./secondScreen.css";
+@import "./thirdScreen.css";
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a:active,
+a:hover,
+a {
+  text-decoration: none;
+  color: white;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-style: 24px;
+}
+p {
+  font-style: 18px;
+}

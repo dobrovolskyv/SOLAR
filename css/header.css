@@ -1,0 +1,49 @@
+.header {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.header__title {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.main__text {
+  margin-top: 140px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sign {
+  margin: 0 auto;
+}
+
+.sign__text {
+  font-size: 18px;
+  display: inline-block;
+  transform: translate(-60px, -16px);
+}
+.sign:hover .sign__path {
+  fill: #a9a32a;
+}
+.sign__path {
+  transition: fill 0.5s;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.social__list {
+  position: absolute;
+  bottom: 15px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.social__item {
+  margin-right: 20px;
+}

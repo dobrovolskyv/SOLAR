@@ -1,0 +1,52 @@
+.container {
+  max-width: 1200px;
+}
+.services {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px 110px 0;
+}
+
+.title__text {
+  margin-top: -100px;
+  color: #868585;
+  margin-bottom: 60px;
+  text-align: left;
+}
+.services__text h2 {
+  margin-bottom: 20px;
+  margin-top: 44px;
+  text-align: left;
+}
+
+.services__text p {
+  width: 510px;
+
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.services__img img {
+  width: 600px;
+  height: 670px;
+  margin-left: 89px;
+}
+.green_tariff {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  text-align: left;
+  margin: 150px 110px 0;
+}
+.info__box {
+}
+.green_tariff__description {
+  width: 600px;
+  height: 525px;
+  color: black;
+}
