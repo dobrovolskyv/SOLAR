@@ -1,0 +1,75 @@
+.clients {
+  color: #303030;
+}
+
+.clients-title {
+  margin: 154px 0px 60px 60px;
+  color: #868585;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 48px;
+}
+
+.clients-slider {
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+.clients-slider__box {
+  display: flex;
+  justify-content: space-between;
+  margin-right: -90px;
+}
+
+.box-img {
+  width: 510px;
+  height: 370px;
+  margin-bottom: 30px;
+}
+
+.clients-slider__box-content {
+  flex-basis: 615px;
+  text-align: left;
+}
+.clients-slider__box-title {
+  max-width: 478px;
+  margin-bottom: 30px;
+}
+
+.clients-slider__box-list {
+  margin-left: 51px;
+  list-style: none;
+  max-width: 549px;
+}
+
+.clients-slider__box-list li:last-child {
+  margin-bottom: 60px;
+}
+
+.clients-slider__box_item {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.clients-sign {
+  margin-top: 60px;
+}
+
+.clients .sign__text {
+  font-size: 18px;
+  display: inline-block;
+  transform: translate(-60px, -16px);
+  color: #303030;
+}
+.clients-sign:hover .sign__path {
+  fill: #a9a32a;
+}
+.sign__path {
+  transition: fill 0.5s;
+}
+
+.slick-arrow:hover path {
+  fill: #a9a32a;
+}
+.clients__slick-left {
+  margin-top: 20px;
+}

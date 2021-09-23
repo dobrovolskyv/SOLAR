@@ -1,19 +1,21 @@
 @import "./header.css";
 @import "./secondScreen.css";
 @import "./thirdScreen.css";
+@import "./quote.css";
+@import "./clients.css";
+@import "./powerstation.css";
+@import "./contacts.css";
 
 body {
   font-family: "Noto Sans", sans-serif;
   color: #ffffff;
-  margin: 0 auto;
   text-align: center;
 }
 
-a:active,
-a:hover,
-a {
-  text-decoration: none;
-  color: white;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 *,
@@ -29,5 +31,5 @@ h2 {
   font-style: 24px;
 }
 p {
-  font-style: 18px;
+  font-style: 14px;
 }

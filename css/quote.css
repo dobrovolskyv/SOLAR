@@ -1,0 +1,13 @@
+.quote {
+  margin-top: 150px;
+  position: relative;
+}
+
+.quote__text {
+  font-size: 42px;
+  color: #ffffff;
+  position: absolute;
+  top: 77px;
+  margin-left: 265px;
+  max-width: 673px;
+}

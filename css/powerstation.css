@@ -1,0 +1,54 @@
+.powerstation {
+  /* max-width: 400px; */
+  margin-top: 150px;
+  color: #303030;
+}
+
+.powerstation__contentbox {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+
+.powerstation__clients-title {
+  margin-bottom: 60px;
+  color: #868585;
+  text-align: left;
+  font-size: 48px;
+}
+
+.powerstation-content {
+  width: 510px;
+  margin-right: 90px;
+}
+
+.clients__list {
+  list-style: none;
+  counter-reset: number;
+}
+
+.clients__list-item {
+  counter-increment: number;
+  margin-bottom: 25px;
+}
+.clients__list-item::before {
+  content: "0" counter(number);
+  color: #868585;
+}
+
+.clients__list-title {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 11px;
+}
+
+.clients__list-text {
+  font-size: 14px;
+}
+
+.powerstation-img {
+  object-fit: cover;
+  width: 600px;
+  height: 700px;
+}
