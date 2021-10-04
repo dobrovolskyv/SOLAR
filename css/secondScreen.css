@@ -9,15 +9,18 @@ a {
   color: black;
   display: flex;
   justify-content: space-between;
-  margin: 180px 50px 0;
+  margin: 0px 50px 0;
 }
 
 .title__text {
-  margin-top: -100px;
+  margin-top: 100px;
   color: #868585;
   margin-bottom: 50px;
   text-align: left;
   font-size: 48px;
+}
+.services__text {
+  width: 600px;
 }
 .services__text h2 {
   margin-bottom: 20px;
@@ -27,13 +30,16 @@ a {
 
 .services__text p {
   width: 410px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 15px;
   text-align: left;
 }
 
-.services__img img {
+.services__img {
   width: 600px;
-  height: 670px;
-  margin-left: 79px;
+  padding-right: 10px;
+  margin-top: 200px;
+}
+.services__img img {
+  float: left;
 }

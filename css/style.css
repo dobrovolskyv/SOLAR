@@ -5,6 +5,7 @@
 @import "./clients.css";
 @import "./powerstation.css";
 @import "./contacts.css";
+@import "./adaptive.css";
 
 body {
   font-family: "Noto Sans", sans-serif;

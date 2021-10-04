@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
+  background-position: center center;
 }
 .header__logo {
   padding-top: 40px;
